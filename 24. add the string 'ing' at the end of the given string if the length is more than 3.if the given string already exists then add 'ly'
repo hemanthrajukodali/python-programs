@@ -1,0 +1,21 @@
+# Define a function named add_string that takes one argument, 'str1'.
+def add_string(str1):
+    # Get the length of the input string 'str1' and store it in the variable 'length'.
+    length = len(str1)
+
+    # Check if the length of 'str1' is greater than 2 characters.
+    if length > 2:
+        # If the last three characters of 'str1' are 'ing', add 'ly' to the end.
+        if str1[-3:] == 'ing':
+            str1 += 'ly'
+        else:
+            # If the last three characters are not 'ing', add 'ing' to the end.
+            str1 += 'ing'
+
+    # Return the modified 'str1'.
+    return str1
+
+# Call the add_string function with different input strings and print the results.
+print(add_string('ab'))      # Output: 'ab'
+print(add_string('abc'))     # Output: 'abcing'
+print(add_string('string'))  # Output: 'stringly'
