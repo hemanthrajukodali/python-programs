@@ -1,0 +1,8 @@
+string="StudyTonight"
+substring="Study"
+
+print("Does ",substring," exist in ",string,"?")
+if substring in string:
+    print("Yes")
+else:
+    print("False")
