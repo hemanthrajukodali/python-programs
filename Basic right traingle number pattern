@@ -1,0 +1,14 @@
+# Number of rows
+rows = 5
+
+# Outer loop to handle the rows
+for i in range(rows):
+    
+    # Inner loop to handle the columns
+    for j in range(i + 1):
+        
+        # Printing the pattern
+        print(j+1, end=' ')
+    
+    # Next Line
+    print()
