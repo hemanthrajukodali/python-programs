@@ -23,5 +23,3 @@ if (isPerfectSquare(x)):
 else:
 	print("No")
 
-# This code is contributed
-# by Anant Agarwal.
